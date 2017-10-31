@@ -1,0 +1,29 @@
+{
+  "name": "releasemanage",
+  "version": "1.0.0",
+  "description": "部署管理程序",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "webstart": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "dysoft"
+  ],
+  "author": "csy",
+  "license": "",
+  "devDependencies": {
+    "commonjs": "^0.0.1",
+    "devtron": "^1.4.0",
+    "electron": "~1.7.8",
+    "electron-debug": "^1.4.0",
+    "http-server": "^0.10.0",
+    "ms": "^2.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
